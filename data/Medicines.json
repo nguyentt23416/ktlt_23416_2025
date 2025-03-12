@@ -1,0 +1,550 @@
+[
+    {
+      "name": "Alphachymotrylsil",
+      "type": "Thuốc giảm đau, hạ sốt, kháng viêm",
+      "usage": "Dùng 2 viên (8,4 mg), 3 đến 4 lần một ngày",
+      "side_effects": ["Rối loạn tiêu hóa", "Khi sử dụng ở liều cao có thể xảy ra phản ứng phản ứng dị ứng nhẹ", "Rối loạn đông máu, chảy máu cam kéo dài", "Tăng áp lực nhãn áp"],
+      "prescription_required": true,
+      "quantity": 28,
+      "expiration date": "11/01/2025",
+      "price": 20000
+    },
+
+    {
+      "name": "Celecoxib",
+      "type": "Thuốc giảm đau, hạ sốt, kháng viêm",
+      "usage": {
+        "Người lớn": ["Điều trị bệnh xương khớp: 200mg/ngày, chia làm 2 lần (mỗi lần 100mg).", "Giảm đau cấp (đau sau nhổ răng, đau tiền kinh nguyệt): liều khởi đầu 400mg/ngày, nếu còn đau thì uống 200mg/ngày."],
+        "Trẻ em": ["Trẻ từ 2 - 12 tuổi: dùng viên 50mg hoặc 100mg.", "Trẻ từ 12 tuổi trở lên: có thể dùng viên 200mg như người lớn.", "Liều dùng sẽ tính theo cân nặng hoặc theo chỉ định của bác sĩ."]
+      },
+      "side_effects": ["Đau bụng", "Đầy hơi", "Buồn nôn", "Tiêu chảy hoặc táo bón","Viêm mũi họng và đường hô hấp trên","Chóng mặt", "Đau đầu", "Mất ngủ", "Phát ban", "Nổi mẩn ngứa", "Phù ngoại biên"],
+      "prescription_required": true,
+      "quantity": 78,
+      "expiration date": "13/11/2026",
+      "price": 54000
+    },
+
+    {
+      "name": "Ibuprofen",
+      "type": "Thuốc giảm đau, hạ sốt, kháng viêm",
+      "usage": {
+        "Người lớn": ["Đau nhẹ đến vừa, sốt, đau cơ xương: 1,2g – 1,8g/ngày, chia uống 3 – 4 lần.", "Liều tối đa: 2,4g/ngày.", "Liều duy trì: 0,6 – 1,2g/ngày."],
+        "Trẻ em": ["Viêm khớp thiếu niên (trẻ > 7kg): 30 – 40mg/kg/ngày, chia uống 3 – 4 lần.", "Viêm khớp nhẹ: 2mg/kg/ngày.", "Sốt và đau (không dùng cho trẻ <7kg): 20 – 30mg/kg/ngày, chia uống mỗi 6 – 8 giờ.", "Trẻ 1 – 2 tuổi: 50mg uống 3 – 4 lần/ngày.", "Trẻ 3 – 7 tuổi: 100mg uống 3 – 4 lần/ngày.", "Trẻ 8 – 12 tuổi: 200mg uống 3 – 4 lần/ngày."]
+      },
+      "side_effects": ["Mệt mỏi", "Chướng bụng", "Buồn nôn", "Nhức đầu", "Hoa mắt chóng mặt", "Mẩn ngứa, ngoại ban"],
+      "prescription_required": true,
+      "quantity": 96,
+      "expiration date": "15/08/2026",
+      "price": 43000
+    },
+
+    {
+      "name": "Meloxicam",
+      "type": "Thuốc giảm đau, hạ sốt, kháng viêm",
+      "usage": {
+        "Người lớn": ["Viêm khớp dạng thấp, viêm cột sống dính khớp: 7,5mg/ngày, tối đa 15mg/ngày.", "Thoái hóa khớp (đau cấp): 7,5mg/ngày, có thể tăng lên 15mg/ngày nếu cần.", "Nguy cơ tai biến cao: 7,5mg/ngày, điều trị 2 - 3 ngày rồi chuyển sang đường uống/trực tràng."],
+        "Người lớn tuổi": ["Người cao tuổi: 7,5mg/ngày.", "Suy gan, suy thận nhẹ - vừa: Không cần điều chỉnh liều.", "Suy thận nặng (ClCr < 20ml/phút): Không dùng.", "Chạy thận nhân tạo: Tối đa 7,5mg/ngày."],
+        "Trẻ em": ["Dưới 2 tuổi: Chưa xác định độ an toàn.", "Trên 2 tuổi: 0,125mg/kg/ngày, tối đa 7,5mg/ngày."]
+      },
+      "side_effects": ["Rối loạn tiêu hoá", "Phát ban trên da", "Chóng mặt", "Đau đầu","Tăng nhẹ men gan", "Viêm thực quản", "Loét dạ dày - tá tràng", "Chảy máu đường tiêu hóa tiềm tàng", "Giảm bạch cầu, tiểu cầu", "Viêm miệng, mày đay", "Tăng huyết áp", "Tăng nồng độ creatinin và ure máu, đau tại chỗ tiêm", "Chóng mặt, ù tai và buồn ngủ"],
+      "prescription_required": true,
+      "quantity": 54,
+      "expiration date": "04/09/2025",
+      "price": 30000
+    },
+
+    {
+      "name": "Paracetamol",
+      "type": "Thuốc giảm đau, hạ sốt, kháng viêm",
+      "usage": {
+        "Người lớn": ["Liều thông thường: 2 viên/lần.", "Tối đa 4 liều/ngày, mỗi lần cách nhau ít nhất 4 giờ."],
+        "Trẻ em": ["Liều khuyến cáo: 10 - 15mg/kg/lần.", "Ví dụ: Trẻ 12kg dùng 150mg/lần, trẻ 33kg dùng 1 viên 500mg/lần.", "Khoảng cách giữa 2 liều: 4 - 6 giờ."]
+      },
+      "side_effects": ["Dị ứng", "Khó thở", "Tình trạng đột ngột tăng huyết áp hoặc hạ thân nhiệt trong trường hợp sử dụng cùng với một số thuốc giảm huyết áp có thành phần chứa phenothiazin."],
+      "prescription_required": false,
+      "quantity": 46,
+      "expiration date": "25/07/2025",
+      "price": 34000
+    },
+
+    {
+      "name": "Ampicillin",
+      "type": "Thuốc kháng sinh",
+      "usage": {
+        "Người lớn": ["0,25g - 1g/lần uống, mỗi 6 giờ.", "Uống 30 phút trước hoặc 2 giờ sau ăn.", "Bệnh nặng: Có thể tăng lên 6g - 12g/ngày."],
+        "Trẻ em": ["400mg/kg/ngày tiêm tĩnh mạch/tiêm bắp, mỗi 6 giờ.", "50 - 100mg/kg/ngày đường uống, mỗi 4 - 6 giờ (tối đa 12g/ngày).", "Nhiễm trùng nặng: 200 - 400mg/kg/ngày, mỗi 6 giờ."],
+        "Trẻ sơ sinh": ["Dưới 28 ngày (dưới 2kg): 50 - 100mg/kg/ngày tiêm TM/TB, mỗi 12 giờ.", "Dưới 28 ngày (trên 2kg): 75 - 150mg/kg/ngày tiêm TM/TB, mỗi 8 giờ.", "Dưới 1,2kg: 50 - 100mg/kg/ngày tiêm TM/TB, mỗi 12 giờ.", "1,2kg - 2kg: 75 - 150mg/kg/ngày tiêm TM/TB, mỗi 8 giờ."]
+      },
+      "side_effects": ["Phát ban", "Mề đay", "Sốt", "Co giật", "Viêm da cấp tính", "Đỏ và bong tróc da", "Tiêu chảy", "Viêm lưỡi", "Viêm ruột non hoặc ruột kết", "Nôn hoặc buồn nôn", "Nhiễm trùng nấm men trong miệng", "Giảm số lượng bạch cầu/hồng cầu", "Thiếu máu", "Viêm thận", "Đau đầu", "Ngứa âm đạo hoặc tiết dịch", "Nước tiểu sẫm màu", "Dễ bị bầm tím hoặc chảy máu", "Đau họng"],
+      "prescription_required": true,
+      "quantity": 58,
+      "expiration date": "26/09/2025",
+      "price": 93000
+    },
+
+    {
+      "name": "Cefixime",
+      "type": "Thuốc kháng sinh",
+      "usage": {
+        "Ngời lớn": ["200mg/ngày (1 - 2 viên), có thể uống 1 hoặc 2 lần/ngày."],
+        "Trẻ em": ["≥ 12 tháng hoặc > 45kg: Dùng như người lớn, nên chia 2 lần/ngày.", "6 - 12 tháng hoặc ≤ 45kg: 8mg/kg/ngày, chia 1 - 2 lần, dùng dạng hỗn dịch."]
+      },
+      "side_effects": ["Dị ứng: Ngứa, sưng phù, khó thở, nổi mẩn.", "Phản vệ: Đau ngực, khó nuốt, sưng mặt - môi - lưỡi.", "Hội chứng Steven Johnson: Phồng rộp, sốt, chảy máu, triệu chứng giống cúm.", "Tiêu chảy: Thường gặp, có thể cần dùng thuốc hỗ trợ tiêu hóa.", "Viêm đại tràng giả mạc: Đau bụng, tiêu chảy nặng, chuột rút.", "Hiếm gặp: Buồn nôn, đầy hơi, khó tiêu, đau bụng."],
+      "prescription_required": true,
+      "quantity": 68,
+      "expiration date": "13/05/2025",
+      "price": 40000
+    },
+
+    {
+      "name": "Docxycyclin",
+      "type": "Thuốc kháng sinh",
+      "usage": {
+        "instructions": "Uống trong hoặc sau bữa ăn với nhiều nước, ở tư thế đứng hoặc ngồi thẳng.",
+        "Người lớn": ["Ngày 1: 1 viên x 2 lần/ngày.", "Từ ngày 2: 1 viên/ngày.", "Nhiễm khuẩn nặng: 1 viên x 2 lần/ngày.", "Nhiễm trùng nặng: 2 viên/lần/ngày.", "Nhiễm lậu cấp: Ngày 1: 2 viên + 1 viên buổi tối, sau đó 1 viên x 2 lần/ngày trong 3 ngày.", "Nhiễm trùng niệu đạo, cổ tử cung, âm đạo: 1 viên x 2 lần/ngày, tối thiểu 10 ngày."],
+        "Trẻ em": ["≥ 8 tuổi: Ngày 1: 4 - 5mg/kg/ngày, chia 2 lần.", "Từ ngày 2: 2 - 2,5mg/kg/ngày, uống 1 lần/ngày.", "Nhiễm khuẩn nặng: 2 - 2,5mg/kg x 2 lần/ngày."],
+        "special_cases": ["Nhiễm trùng Streptococcus: Điều trị 10 ngày để phòng sốt thấp khớp/viêm cầu thận.", "Không cần giảm liều ở bệnh nhân suy thận (do thải trừ qua gan mật và tiêu hóa)."]
+      },
+      "side_effects": {
+        "quá_mẫn": ["Phản vệ, sốc phản vệ", "Khó thở, hạ huyết áp, nhịp tim nhanh", "Nổi mề đay, ban xuất huyết dị ứng", "Phù mạch, bệnh huyết thanh, lupus ban đỏ hệ thống"],
+        "nhiễm_khuẩn_ký_sinh": ["Tăng sinh Clostridium difficile", "Tăng sinh Candida gây viêm da sinh dục"],
+        "máu_và_bạch_huyết": ["Thiếu máu tan máu", "Giảm tiểu cầu, bạch cầu trung tính", "Tăng bạch cầu eosin, rối loạn chuyển hóa porphyrin"],
+        "nội_tiết": ["Dùng lâu dài gây đổi màu nâu đen mô tuyến giáp"],
+        "thần_kinh": ["Nhức đầu, tăng áp lực nội sọ", "Thóp phồng ở trẻ sơ sinh", "Nhìn đôi, ám điểm, mất thị lực vĩnh viễn (hiếm)"],
+        "tai_mũi_họng": ["Ù tai, rối loạn thính giác"],
+        "tiêu_hóa": ["Đau bụng, chán ăn, buồn nôn, tiêu chảy", "Viêm miệng, viêm thực quản, loét thực quản", "Đổi màu răng, giảm men răng (dùng lâu dài)"],
+        "gan_mật": ["Viêm gan, suy gan", "Viêm tụy, vàng da"],
+        "da_và_mô_dưới_da": ["Phát ban, ban đỏ, viêm da tróc vảy", "Hội chứng Stevens-Johnson, hoại tử biểu bì nhiễm độc", "Nhạy cảm ánh sáng, tróc móng"],
+        "cơ_xương_khớp": ["Đau cơ, đau khớp"],
+        "thận_tiết_niệu": ["Tăng urê trong máu"],
+        "sinh_sản": ["Viêm âm đạo"]
+      },
+      "prescription_required": true,
+      "quantity": 34,
+      "expiration date": "20/03/2026",
+      "price": 120000
+    },
+
+    {
+      "name": "Metronidazol",
+      "type": "Thuốc kháng sinh",
+      "usage": {
+        "instructions": "Uống trong hoặc sau bữa ăn với nhiều nước.",
+        "Ngươi lớn": ["Nhiễm Trichomonas vaginalis: 2g/lần duy nhất hoặc 250mg x 3 lần/ngày trong 7 ngày.", "Nhiễm Amip: 500 – 750mg x 3 lần/ngày, trong 5 – 10 ngày.", "Nhiễm Giardia: 250mg x 3 lần/ngày trong 5 – 7 ngày hoặc 2g/ngày trong 3 ngày.", "Viêm đại tràng do kháng sinh: 500mg x 3 – 4 lần/ngày.", "Viêm loét dạ dày – tá tràng do H. pylori: 500mg x 3 lần/ngày."],
+        "Trẻ em": ["Nhiễm Amip: 35 – 40mg/kg/ngày, chia 3 lần uống.", "Nhiễm Giardia: 15mg/kg/ngày, chia 2 – 3 lần, trong 5 – 10 ngày."],
+        "Trường hợp đặc biệt": ["Điều trị cả người có quan hệ tình dục khi nhiễm Trichomonas vaginalis."]
+      },
+      "side_effects": {
+        "thường gặp": ["Buồn nôn", "Nôn ói", "Tiêu chảy", "Chán ăn", "Cảm giác có mùi vị kim loại"],
+        "ít gặp": "Giảm thiểu lượng bạch cầu",
+        "hiếm gặp": ["Mất bạch cầu hạt", "Động kinh", "Đau đầu", "Phồng rộp da", "Ngứa và phát ban trên da", "Nước tiểu có màu sẫm"]
+      },
+      "prescription_required": true,
+      "quantity": 37,
+      "expiration date": "22/08/2025",
+      "price": 35000
+    },
+
+    {
+      "name": "Klamentin",
+      "type": "Thuốc kháng sinh",
+      "usage": {
+        "instructions": "Klamentin 500/125: Nên nuốt cả viên khi uống, không được nhai. Nếu cần, có thể bẻ đôi viên thuốc rồi nuốt nhưng không được nhai.",
+        "Người lớn": ["Người lớn và trẻ ≥ 40kg: 500mg/125mg x 3 lần/ngày.", "Tổng liều hàng ngày: 1500mg amoxicillin / 375mg acid clavulanic."],
+        "Trẻ em": ["Trẻ < 40kg: 20mg/5mg/kg/ngày - 60mg/15mg/kg/ngày, chia 3 lần.", "Liều tối đa: 2400mg amoxicillin / 600mg acid clavulanic/ngày.", "Trẻ < 6 tuổi hoặc < 25kg không nên dùng dạng viên.", "Không có liều khuyến cáo cho trẻ < 2 tuổi."],
+        "Trường hợp đặc biệt": "Nếu cần dùng liều amoxicillin cao hơn, nên chọn chế phẩm khác của Klamentin để tránh dùng acid clavulanic liều cao không cần thiết."
+      },
+      "side_effects": {
+        "thường gặp": ["Tiêu chảy", "Nôn và buồn nôn"],
+        "ít gặp": ["Tăng bạch cầu ái toan", "Viêm gan, vàng da ứ mật", "Ngứa, ban đỏ, phát ban"],
+        "hiếm gặp": ["Phản ứng phản vệ", "Phù Quincke", "Giảm tiểu cầu", "Giảm bạch cầu", "Thiếu máu tan máu", "Viêm đại tràng giả mạc", "Hội chứng Stevens-Johnson", "Viêm thận kẽ"]
+      },
+      "prescription_required": true,
+      "quantity": 12,
+      "expiration date": "19/04/2025",
+      "price": 110000
+    },
+
+    {
+      "name": "Chlorpheniramin",
+      "type": "Thuốc kháng histamin",
+      "usage": {
+        "instructions": "Uống cách nhau ít nhất 4 tiếng. Người lớn tuổi có thể giảm liều để ngăn ngừa tác dụng phụ.",
+        "Người lớn": ["Bệnh nhân ≥ 12 tuổi: 6 viên/ngày (tổng 24mg), chia nhiều lần.", "Người lớn tuổi: 12mg/ngày, chia nhiều lần."],
+        "Trẻ em": ["Trẻ 6 - 12 tuổi: Tối đa 3 viên/ngày.", "Liều mỗi lần: ½ viên.", "Khoảng cách giữa các liều: 4 - 6 tiếng.", "Nên tham khảo ý kiến bác sĩ trước khi dùng cho trẻ em."]
+      },
+      "side_effects": {
+        "thường gặp": ["Mắt mờ", "Tinh thần mất tập trung", "Suy giảm tâm thần vận động"],
+        "ít gặp": ["Suy giảm khả năng hô hấp ở trẻ em", "Sâu răng khi dùng thuốc lâu dài"]
+      },
+      "prescription_required": false,
+      "quantity": 72,
+      "expiration date": "23/05/2025",
+      "price": 250000
+    },
+
+    {
+      "name": "Alimemazin",
+      "type": "Thuốc kháng histamin",
+      "usage": {
+        "instructions": "Có thể uống trước hoặc sau khi ăn. Để giảm kích ứng dạ dày, nên uống cùng thức ăn và với 1 ly nước đầy, không nhai hoặc làm vỡ viên thuốc.",
+        "Người lớn": ["10mg/lần, uống 2-3 lần/ngày.", "Tối đa 10mg/ngày."],
+        "Người lớn tuổi": "10mg/lần, uống 1-2 lần/ngày.",
+        "Trẻ em": "Trẻ > 2 tuổi: 0,5 - 1mg/kg/ngày, chia 3-4 lần."
+      },
+      "side_effects": {
+        "thường gặp": ["Buồn ngủ", "Mệt mỏi", "Nhức đầu", "Chóng mặt", "Táo bón", "Rối loạn tiêu hoá", "Bí tiểu", "Rối loạn điều tiết mắt"],
+        "ít gặp": ["Mắt mờ", "Tinh thần mất tập trung", "Suy giảm tâm thần vận động", "Suy giảm khả năng hô hấp ở trẻ em", "Sâu răng khi dùng thuốc lâu dài", "Hạ huyết áp", "Tăng nhịp tim", "Viêm gan"],
+        "hiếm gặp": ["Triệu chứng ngoại tháp", "Co giật", "Rối loạn máu như mất bạch cầu hạt", "Nguy cơ ngừng hô hấp", "Phản ứng tăng nhạy cảm: co thắt phế quản, ban đỏ, phù mạch, phản ứng phản vệ"]
+      },
+      "prescription_required": true,
+      "quantity": 39,
+      "expiration date": "29/07/2025",
+      "price": 10000
+    },
+
+    {
+      "name": "Loratadin",
+      "type": "Thuốc kháng histamin",
+      "usage": {
+        "instructions": "Có thể uống trước hoặc sau bữa ăn. Nuốt nguyên viên với nước, không nhai hoặc nghiền nát.",
+        "Người lớn": "Từ 12 tuổi trở lên: 1 viên/ngày.",
+        "Trẻ em": ["6-12 tuổi, ≥ 30kg: 1 viên/ngày.", "6-12 tuổi, < 30kg: 1/2 viên/ngày."],
+        "special_cases": "Suy gan, suy thận nặng (CrCl ≤ 30ml/phút): 1 viên mỗi 2 ngày."
+      },
+      "side_effects": {
+        "hệ thần kinh": ["Mệt mỏi", "Đau đầu", "Buồn ngủ"],
+        "hệ tiêu hóa": ["Khô miệng", "Buồn nôn", "Nôn ói", "Viêm dạ dày"],
+        "da": ["Dị ứng", "Phát ban"]
+      },
+      "prescription_required": false,
+      "quantity": 32,
+      "expiration date": "23/01/2026",
+      "price": 10000
+    },
+
+    {
+      "name": "Fexofenadine",
+      "type": "Thuốc kháng histamin",
+      "usage": ["Viêm mũi dị ứng: 60 mg x 2 lần/ngày hoặc 120-180 mg x 1 lần/ngày.", "Bệnh mề đay: 60 mg x 2 lần/ngày hoặc 180 mg x 1 lần/ngày."],
+      "side_effects": "Nhức đầu, buồn ngủ, buồn nôn, choáng váng và mệt mỏi.",
+      "prescription_required": false,
+      "quantity": 49,
+      "expiration date": "15/06/2025",
+      "price": 80000
+    },
+
+    {
+      "name": "Cetirizin",
+      "type": "Thuốc kháng histamin",
+      "usage": {
+        "instructions": "Dùng đường uống có kèm hoặc không kèm với thức ăn. Uống thuốc mỗi ngày một lần vào cùng một thời điểm.",
+        "Liều lượng": ["Người lớn và trẻ em từ 6 tuổi trở lên: 1/2 viên hoặc 1 viên/lần, tùy theo mức độ bệnh.", "Người trên 77 tuổi: 5mg/lần.", "Người suy gan hoặc suy thận: Giảm liều bằng một nửa liều thông thường."]
+      },
+      "side_effects": {
+        "thường gặp": ["Mệt mỏi", "Khô miệng", "Nhức đầu", "Chóng mặt", "Buồn nôn"],
+        "ít gặp": ["Rối loạn cảm giác ăn uống (chán ăn hoặc tăng thèm ăn)", "Bí tiểu", "Đỏ bừng", "Tăng tiết nước bọt", "Thiếu máu tan máu", "Giảm tiểu cầu", "Hạ huyết áp nặng"],
+        "hiếm gặp": ["Choáng phản vệ", "Viêm gan", "Ứ mật", "Viêm cầu thận"]
+      },
+      "prescription_required": false,
+      "quantity": 16,
+      "expiration date": "11/08/2025",
+      "price": 22000
+    },
+
+    {
+      "name": "Terpin codein",
+      "type": "Thuốc ho",
+      "usage": {
+        "instructions": "Thời điểm uống Terpin Codein tốt nhất là sau mỗi bữa ăn từ 15 - 30 phút.",
+        "Người lớn": "Người lớn: 2 - 3 lần/ngày, mỗi lần 1 - 2 viên.",
+        "Trẻ em": ["Trẻ 5 - 15 tuổi: 1 - 3 lần/ngày, mỗi lần 1 viên.", "Trẻ dưới 5 tuổi: Sử dụng theo chỉ định của bác sĩ."]
+      },
+      "side_effects": {
+        "thường gặp": ["Táo bón", "Chóng mặt", "Buồn nôn", "Co thắt phế quản", "Dị ứng da"],
+        "hiếm gặp": ["Suy tuần hoàn", "Suy hô hấp", "Ngứa mề đay"]
+      },
+      "prescription_required": false,
+      "quantity": 9,
+      "expiration date": "26/02/2025",
+      "price": 89000
+    },
+
+    {
+      "name": "Neocodion",
+      "type": "Thuốc ho",
+      "usage": ["Người lớn: 1 viên/lần, lặp lại sau 6 giờ nếu cần, không quá 4 lần/ngày.", "Người cao tuổi hoặc suy gan: Bắt đầu với nửa liều người lớn, có thể tăng nếu cần nhưng không vượt quá liều thông thường. Các lần uống cách nhau ít nhất 6 giờ."],
+      "side_effects": {
+        "thường gặp": ["Đau đầu", "Chóng mặt", "Khát", "Cảm giác lạ", "Buồn nôn", "Nôn", "Táo bón", "Bí tiểu", "Tiểu ít", "Mạch nhanh hoặc chậm", "Hồi hộp", "Yếu mệt", "Hạ huyết áp thế đứng"],
+        "ít gặp": ["Ngứa", "Mày đay", "Suy hô hấp", "Bồn chồn", "Đau dạ dày", "Co thắt ống mật"],
+        "hiếm gặp": ["Phản ứng phản vệ", "Ảo giác", "Mất phương hướng", "Rối loạn thị giác", "Co giật", "Suy tuần hoàn", "Đỏ mặt", "Toát mồ hôi", "Mệt mỏi"]
+      },
+      "prescription_required": true,
+      "quantity": 5,
+      "expiration date": "06/01/2025",
+      "price": 380000
+    },
+
+    {
+      "name": "Acetylcystein",
+      "type": "Thuốc tiêu đờm",
+      "usage": {
+        "Người lớn": "Người lớn và trẻ em trên 7 tuổi: 200mg/lần x 3 lần/ngày. Liều tối đa không quá 600mg/ngày.",
+        "Trẻ em": ["Trẻ em từ 2 - 7 tuổi: 200mg/lần x 2 lần/ngày.", "Trẻ em dưới 2 tuổi: 50mg/lần x 2 - 3 lần/ngày."]
+      },
+      "side_effects": {
+        "thường gặp": ["Buồn nôn", "Nôn", "Đỏ bừng mặt", "Phù", "Tim đập nhanh"],
+        "ít gặp": ["Buồn ngủ", "Nhức đầu", "Ù tai", "Viêm miệng", "Chảy nước mũi nhiều", "Ran ngáy", "Phát ban", "Mày đay"],
+        "hiếm gặp": ["Co thắt phế quản gây khó thở", "Suy hô hấp", "Phản ứng phản vệ toàn thân", "Sốt", "Rét run"]
+      },
+      "prescription_required": false,
+      "quantity": 74,
+      "expiration date": "29/01/2027",
+      "price": 74000
+    },
+
+    {
+      "name": "Bromhexin",
+      "type": "Thuốc tiêu đờm",
+      "usage": {
+        "Người lớn": ["Trẻ trên 12 tuổi và người lớn: 8mg/lần x 3 lần/ngày.", "Liều dùng có thể lên đến 12mg/lần x 4 lần/ngày nhưng cần có ý kiến của bác sĩ."],
+        "Trẻ em": ["Trẻ từ 2 - 5 tuổi: 4mg/lần x 2 lần/ngày.", "Trẻ trên 5 tuổi – 12 tuổi: 4mg/lần x 4 lần/ngày."]
+      },
+      "side_effects": {
+        "thường gặp": ["Buồn nôn", "Nôn", "Đỏ bừng mặt", "Phù", "Tim đập nhanh"],
+        "ít gặp": ["Buồn ngủ", "Nhức đầu", "Ù tai", "Viêm miệng", "Chảy nước mũi nhiều", "Ran ngáy", "Phát ban", "Mày đay"],
+        "hiếm gặp": ["Co thắt phế quản gây khó thở", "Suy hô hấp", "Phản ứng phản vệ toàn thân", "Sốt", "Rét run"]
+      },
+      "prescription_required": false,
+      "quantity": 23,
+      "expiration date": "03/11/2026",
+      "price": 20000
+    },
+
+    {
+      "name": "Omeprazole",
+      "type": "Thuốc dạ dày",
+      "usage": {
+        "Khó tiêu do acid": "10-20 mg, 2-4 tuần",
+        "Trào ngược dạ dày - thực quản": "20 mg/ngày, 4-8 tuần",
+        "Viêm thực quản khó trị": "40 mg/ngày, duy trì 20 mg/ngày",
+        "Trào ngược acid": "10 mg/ngày",
+        "Loét tá tràng": "20-40 mg, 4 tuần",
+        "Loét dạ dày": "20-40 mg, 8 tuần"
+      },
+      "side_effects": {
+        "Tác dụng phụ thường gặp": ["Táo bón", "Đầy hơi", "Buồn nôn", "Nôn", "Đau đầu", "Phát ban", "Nổi mề đay"],
+        "Tác dụng phụ nghiêm trọng": ["Ngứa", "Sưng mặt, cổ họng, lưỡi, môi, mắt, tay, chân, mắt cá chân, cẳng chân", "Khó thở", "Khó nuốt", "Khàn tiếng", "Co giật", "Tiêu chảy", "Đau bụng", "Sốt"],
+        "Nguy cơ lâu dài": "Tăng nguy cơ gãy xương cổ tay, hông, cột sống khi dùng 40mg"
+      },
+      "prescription_required": false,
+      "quantity": 11,
+      "expiration date": "28/09/2025",
+      "price": 430000
+    },
+
+    {
+      "name": "Phosphalugel",
+      "type": "Thuốc dạ dày",
+      "usage": {
+        "instructions": "Nên uống thuốc ngay khi bạn xuất hiện các triệu chứng đau, khó chịu tại dạ dày.Thời điểm sử dụng các thuốc khác nên cách xa ít nhất 2 tiếng với thời điểm sử dụng Phosphalugel",
+        "Người lớn": "Uống 1 – 2 gói/lần; liều tối đa không quá 6 gói/ngày."
+      },
+      "side_effects": ["Tiêu chảy, táo bón", "Đau bụng", "Buồn nôn"],
+      "prescription_required": false,
+      "quantity": 25,
+      "expiration date": "28/10/2026",
+      "price": 109000
+    },
+
+    {
+      "name": "Loperamid",
+      "type": "Thuốc điều trị tiêu chảy",
+      "usage": {
+        "Người lớn": {"Liều khởi đầu": "4mg", "Liều tiếp theo": "2mg sau mỗi lần đi tiêu phân lỏng", "Liều tối đa mỗi ngày": "16mg"},
+        "Trẻ em từ 12 đến 18 tuổi": {"Liều khởi đầu": "4mg", "Liều tiếp theo": "2mg sau mỗi lần đi tiêu phân lỏng", "Liều tối đa mỗi ngày": "8mg"},
+        "Trẻ em dưới 12 tuổi": "Chỉ dùng theo chỉ định của bác sĩ"
+      },
+      "side_effects": ["Ngứa hoặc mề đay","Đau dạ dày hoặc căng chướng bụng","Khó khăn khi tiểu tiện", "Táo bón nghiêm trọng", "Co đồng tử","Tăng trương lực cơ", "Bất thường điều phối vận động"],
+      "prescription_required": false,
+      "quantity": 56,
+      "expiration date": "27/11/2026",
+      "price": 36000
+    },
+
+    {
+      "name": "Smecta",
+      "type": "Thuốc điều trị tiêu chảy",
+      "usage": {
+        "Người lớn": "3 gói/ngày, trong vòng 7 ngày",
+        "Trẻ em trên 2 tuổi": {"3 ngày đầu": "4 gói/ngày", "Sau đó": "2 gói/ngày trong vòng 4 ngày "}
+      },
+      "side_effects": ["Táo bón","Đầy hơi","Nôn mửa", "Nổi mề đay", "Phát ban","Viêm ngứa", "Phù mạch"],
+      "prescription_required": true,
+      "quantity": 95,
+      "expiration date": "04/08/2025",
+      "price": 45000
+    },
+
+    {
+      "name": "Duphalac",
+      "type": "Thuốc nhuận tràng",
+      "usage": {
+        "Người lớn và thanh thiếu niên": {"Liều khởi đầu": "15-45ml hoặc 1-3 gói/ngày", "Liều duy trì": "15-30ml hoặc 1-2 gói/ngày"},
+        "Trẻ em 7-14 tuổi": {"Liều khởi đầu": "15ml hoặc 1 gói/ngày", "Liều duy trì": "10-15ml hoặc 1 gói/ngày"},
+        "Trẻ em 1-6 tuổi": {"Liều thông thường": "5-10ml/ngày"},
+        "Trẻ dưới 1 tuổi": {"Liều thông thường": "5ml/ngày"}
+      },
+      "side_effects": ["Đau bụng","Đầy bụng","Tiêu chảy", "Buồn nôn", "Nôn","Mất cân bằng điện giải"],
+      "prescription_required": true,
+      "quantity": 42,
+      "expiration date": "08/06/2025",
+      "price": 96000
+    },
+
+    {
+      "name": "Bisacodyl",
+      "type": "Thuốc nhuận tràng",
+      "usage": {
+        "Người lớn và trẻ em trên 10 tuổi": "5 – 10 mg/lần/ngày",
+        "Trẻ em 4 – 10 tuổi": "5mg/lần/ngày, nếu điều trị táo bón mạn tính và kéo dài phải theo sự chỉ dẫn của bác sĩ"
+      },
+      "side_effects": {
+        "thường gặp": ["Đau bụng","Đau dạ dày","Tiêu chảy", "Buồn nôn", "Suy nhược","Mất cân bằng điện giải"],
+        "hiếm gặp": ["Buồn nôn và nôn", "Tiêu chảy dai dẳng", "Chuột rút và yếu cơ", "Nhịp tim không đều", "Chóng mặt", "Ngất xỉu", "Giảm đi tiểu", "Thay đổi tâm trạng (lú lẫn)"]
+      },
+      "prescription_required": false,
+      "quantity": 36,
+      "expiration date": "28/07/2025",
+      "price": 45000
+    },
+
+    {
+      "name": "Neopeptin",
+      "type": "Men tiêu hóa",
+      "usage": {
+        "instructions": "Uống sau bữa ăn, nếu bạn uống thuốc dạng viên nén hãy uống với thật nhiều nước, không bẻ hay nhai thuốc. Nêu sử dụng thuốc dạng dung dịch thì lắc nhẹ chai trước khi sử dụng, có thể uống trực tiếp hoặc hòa cùng với một ít nước.",
+        "Người lớn": {"Dạng viên": "2 lần/ngày, mỗi lần 1 viên", "Dạng dung dịch": "2 lần/ngày, mỗi lần 5ml"},
+        "Trẻ em": {"Trẻ trên 1 tuổi": "5ml/ngày (dạng dung dịch), có thể trộn với nước và uống sau ăn", "Trẻ dưới 1 tuổi": "0.5ml/ngày, chia 1-2 lần, có thể trộn với nước và uống sau ăn"}
+      },
+      "side_effects": ["Rối loạn tiêu hóa", "Dị ứng"],
+      "prescription_required": false,
+      "quantity": 41,
+      "expiration date": "18/11/2025",
+      "price": 56000
+    },
+
+    {
+      "name": "Men Sachaces",
+      "type": "Men vi sinh",
+      "usage": {
+        "Người lớn": {"Bổ sung vi khuẩn có ích": "1 – 2 gói/ngày", "Trị và phòng ngừa tiêu chảy": "2 – 4 gói/ngày, tùy theo triệu chứng", "Trị và phòng ngừa táo bón": "3 – 6 gói/ngày, tùy theo triệu chứng, dùng đến khi hết táo bón hoặc theo chỉ dẫn"},
+        "Trẻ em": {"Liều dùng": "Bằng một nửa liều người lớn hoặc theo hướng dẫn của bác sĩ"}
+      },
+      "side_effects": ["Đầy bụng", "Buồn nôn", "Khó chịu"],
+      "prescription_required": false,
+      "quantity": 61,
+      "expiration date": "24/02/2025",
+      "price": 90000
+    },
+
+    {
+      "name": "Neurobion",
+      "type": "Thuốc vitamin – khoáng chất",
+      "usage": {
+        "Người lớn": {"Viên bao đường": "Sử dụng cho các trường hợp bệnh mức độ nhẹ đến trung bình hoặc có thể uống trong thời gian giãn cách giữa các đợt sử dụng dạng tiêm. Liều dùng cụ thể là 3 viên/ngày chia 3 lần.", "Ống pha tiêm": "Chỉ định cho các trường hợp bệnh nặng với liều 1 ống/ngày cho đến khi các triệu chứng giảm dần. Sau đó chuyển sang sử dụng 2-3 ống/tuần."},
+        "Trẻ em": "Loại thuốc này không thích hợp sử dụng cho trẻ nhỏ vì hàm lượng các loại vitamin tương đối cao."
+      },
+        "side_effects": {
+          "thường gặp": ["Nôn nao", "Tiêu chảy", "Khó chịu","Dị ứng"],
+          "ít gặp": ["Vã mồ hôi", "Khó thở", "Đau tức ngực", "Khàn giọng", "Sưng mặt", "Sốt"]},
+      "prescription_required": true,
+      "quantity": 64,
+      "expiration date": "04/11/2025",
+      "price": 65000
+    },
+
+    {
+      "name": "Rutin C",
+      "type": "Thuốc vitamin – khoáng chất",
+      "usage": {
+        "Trẻ từ 12 tuổi trở lên và người lớn": "1 - 2 viên/ngày, có thể uống 1 - 2 viên/lần.",
+        "Trẻ em từ 6 tháng tuổi - 12 tuổi": "1 viên/ngày."
+      },
+      "side_effects": {
+          "thường gặp": ["Nôn nao", "Tiêu chảy", "Khó chịu","Dị ứng"],
+          "nghiêm trọng": ["Tiêu chảy", "Rối loạn tiêu hóa", "Ợ nóng", "Mệt mỏi", "Chóng mặt", "Đau đầu"]
+        },
+      "prescription_required": true,
+      "quantity": 84,
+      "expiration date": "24/03/2025",
+      "price": 24000
+    },
+
+    {
+      "name": "Canxi Corbiere",
+      "type": "Thuốc vitamin – khoáng chất",
+      "usage": {
+        "Người lớn": "1-2 ống dạng 5ml/ngày hoặc 1-3 viên nén 500mg.",
+        "Trẻ em trên 1tuổi": "1 ống dạng 10ml/ngày hoặc 1-3 viên nén 500mg.",
+        "Phụ nữ mang thai": "Theo đơn kê của bác sĩ và dược sỹ. Tuy nhiên không được quá 7 viên/ngày"
+      },
+      "side_effects": {
+          "thường gặp": ["Tăng canxi trong máu", "Buồn nôn", "Tiêu chảy"],
+          "nghiêm trọng": ["Mệt mỏi", "Đau đầu", "Táo bón", "Đau yếu cơ", "Đau xương", "Tăng cảm giác khát nước và thường xuyên đi tiểu"]
+        },
+      "prescription_required": true,
+      "quantity": 75,
+      "expiration date": "05/01/2025",
+      "price": 189000
+    },
+
+    {
+      "name": "Obimin",
+      "type": "Thuốc vitamin – khoáng chất",
+      "usage": "1 viên Obimin mỗi ngày, uống trong khi ăn.",
+      "side_effects": {
+        "thường gặp": ["Tăng canxi trong máu", "Buồn nôn", "Tiêu chảy", "Táo bón", "Đau dạ dày"],
+        "nghiêm trọng, hiếm gặp": ["Phát ban", "Ngứa và sưng (đặc biệt là ở mặt, lưỡi, cổ họng)", "Chóng mặt nghiêm trọng", "Khó thở"]
+      },
+      "prescription_required": false,
+      "quantity": 47,
+      "expiration date": "18/09/2025",
+      "price": 72000
+    },
+
+    {
+      "name": "Farzincol",
+      "type": "Thuốc vitamin – khoáng chất",
+      "usage": {
+        "Người lớn và trẻ từ 10 tuổi": "2 – 3 viên một ngày, chia liều dùng trong ngày, mỗi lần dùng 1 viên.",
+        "Trẻ em": {
+          "Trẻ em từ 6 tháng đến dưới 12 tháng": "1/2 viên một ngày.",
+          "Trẻ em từ 1 đến dưới 3 tuổi": "1/2 - 1 viên một ngày.",
+          "Trẻ em từ 3 đến dưới 10 tuổi": "1 viên một ngày"
+        }
+      },
+      "side_effects": {
+        "thường gặp": ["Thường xuyên bị đau bụng", "Khó chịu", "Chướng bụng","Khó tiêu","Tiêu chảy", "Viêm và kích ứng dạ dày", "Đau dạ dày","Buồn nôn","Nôn mửa"],
+        "nghiêm trọng": ["Thiếu đồng", "Thiếu máu nguyên bào sắc", "Thiếu bạch cầu trung tính"]
+      },
+      "prescription_required": false,
+      "quantity": 16,
+      "expiration date": "01/12/2025",
+      "price": 20000
+    },
+
+    {
+      "name": "Ferrovit",
+      "type": "Thuốc vitamin – khoáng chất",
+      "usage": "1 viên/ngày, uống liên tục trong 3 tháng.",
+      "side_effects": {
+        "ít gặp": ["Khó thở", "Sưng mí mắt", "Ngứa ngáy", "Phát ban","Khó tiêu","Tiêu chảy","Buồn nôn","Nôn mửa", "Nước tiểu hoặc phân có màu sẫm hơn bình thường"]
+      },
+      "prescription_required": false,
+      "quantity": 61,
+      "expiration date": "07/06/2025",
+      "price": 105000
+    }
+]
+
