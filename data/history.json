@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Ibuprofen",
+        "quantity": 6,
+        "total_price": 258000
+    },
+    {
+        "name": "Meloxicam",
+        "quantity": 4,
+        "total_price": 120000
+    },
+    {
+        "name": "Ibuprofen",
+        "quantity": 15,
+        "total_price": 645000
+    },
+    {
+        "name": "Meloxicam",
+        "quantity": 30,
+        "total_price": 900000
+    },
+    {
+        "name": "Ibuprofen",
+        "quantity": 1,
+        "total_price": 43000
+    }
+]
