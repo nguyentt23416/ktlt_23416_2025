@@ -2,10 +2,13 @@ from pathlib import Path
 from tkinter import Tk, Canvas, Button, PhotoImage
 import Medicine_Dashboard_Process
 import subprocess
-
+import sys
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r"assets/dashboard")
-
+if len(sys.argv) < 2:
+    print("adjust.py was opened directly. Launching main.py...")
+    subprocess.Popen(["python", "Main.py"])
+    sys.exit()
 
 def relative_to_assets(path: str) -> str:
     return str(ASSETS_PATH / path)

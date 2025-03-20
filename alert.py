@@ -2,8 +2,12 @@ from pathlib import Path
 from tkinter import Tk, Canvas, Entry, Label, PhotoImage, font
 import json
 from alert_ext import Alert
-
-
+import sys
+import subprocess
+if len(sys.argv) < 2:
+    print("adjust.py was opened directly. Launching main.py...")
+    subprocess.Popen(["python", "Main.py"])
+    sys.exit()
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 

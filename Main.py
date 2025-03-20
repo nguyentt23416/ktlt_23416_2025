@@ -71,9 +71,10 @@ class LoginApp(LoginUI):
     def open_home_gui(self):
         """Mở giao diện home.py."""
         try:
-            subprocess.Popen(["python", "home.py"])  # Mở home.py một cách liền mạch
+            subprocess.Popen(["python", "home.py", "from_main"])  # Pass an argument
         except Exception as e:
             messagebox.showerror("Error", f"Không thể mở home.py: {e}")
+
 
 if __name__ == "__main__":
     root = Tk()

@@ -11,7 +11,10 @@ MEDICINES_PATH = DATA_DIR / "medicines.json"
 ALERT_PATH = DATA_DIR / "alert.json"
 HISTORY_PATH = DATA_DIR / "history.json"
 
-
+if len(sys.argv) < 2:
+    print("home.py was opened directly. Launching main.py...")
+    subprocess.Popen(["python", "Main.py"])
+    sys.exit()  
 def load_json(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
