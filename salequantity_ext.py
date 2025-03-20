@@ -89,4 +89,8 @@ class salequantity:
 
         tree.delete(*tree.get_children())  # Xóa dữ liệu cũ trong bảng
         for medicine in medicines:
-            tree.insert("", "end", values=(medicine["name"], medicine["quantity"], medicine["price"]))
+            tree.insert("", "end", values=(
+                medicine.get("name", "N/A"),
+                medicine.get("quantity", 0),
+                medicine.get("price", 0)  # Mặc định là 0 nếu không có giá
+            ))
