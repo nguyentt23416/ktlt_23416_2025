@@ -19,7 +19,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 OUTPUT_PATH = Path(__file__).parent
 ASSETS_PATH = OUTPUT_PATH / Path(r"assets/salequantity")
 if len(sys.argv) < 2:
-    print("adjust.py was opened directly. Launching main.py...")
+    print("salequantity.py was opened directly. Launching main.py...")
     subprocess.Popen(["python", "Main.py"])
     sys.exit()
 
