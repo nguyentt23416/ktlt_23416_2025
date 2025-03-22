@@ -64,102 +64,93 @@ def load_and_display_medicine_stock(self):
     )
 
 
-def load_and_display_medicine_exprierd(self):
-    today = datetime.datetime.today().date()  # Lấy ngày hôm nay
+def load_and_display_medicine_exprired(self):
+    try:
+        today = datetime.datetime.today().date()
+        with open('data/Medicines.json', 'r+', encoding="utf-8") as f:
+            data = json.load(f)
 
-    # Xóa biểu đồ cũ nếu có
-    if self.chart_canvas is not None:
-        self.chart_canvas.get_tk_widget().destroy()
-        self.chart_canvas = None
+        medicines = []
+        days_left_list = []
+        colors = []
+        total_expiring_soon = 0
 
-    # Đọc file JSON
-    with open('data/Medicines.json', 'r+', encoding="utf-8") as f:
-        data = json.load(f)
-
-    medicines = []
-    days_left_list = []
-    colors = []
-    total_expiring_soon = 0
-    # Lọc và tính số ngày còn lại
-    for med in data:
-        expiry_str = med.get('expiration date', None)  # Lấy ngày hết hạn
-        if not expiry_str:
-            print(f"Thuốc {med['name']} không có ngày hết hạn!")
-            continue
-
-        # Kiểm tra định dạng ngày
-        expiry_date = None
-        for fmt in ("%d/%m/%Y", "%Y-%m-%d"):
-            try:
-                expiry_date = datetime.datetime.strptime(expiry_str, fmt).date()
-                break
-            except ValueError:
+        for med in data:
+            expiry_str = med.get('expiration date', None)
+            if not expiry_str:
                 continue
 
-        if not expiry_date:
-            print(f"Thuốc {med['name']} có ngày sai định dạng: {expiry_str}")
-            continue
-        days_left = (expiry_date - today).days
-        # Chỉ lấy thuốc sắp hết hạn <= 9 ngày
-        if 0 <= days_left <= 9:
-            medicines.append(med['name'])
-            days_left_list.append(days_left)
-            total_expiring_soon += 1
-            # Xét màu theo mức độ
-            if days_left <= 3:
-                colors.append('red')  # Gấp, sắp hết hạn
-            elif days_left <= 7:
-                colors.append('yellow')  # Gần hết hạn
-            else:
-                colors.append('orange')  # An toàn trong 9 ngày
-    # Kiểm tra có thuốc sắp hết hạn không
-    if not medicines:
-        messagebox.showinfo("Thông báo", "Không có thuốc sắp hết hạn trong 9 ngày.")
-        return
+            expiry_date = None
+            for fmt in ("%d/%m/%Y", "%Y-%m-%d"):
+                try:
+                    expiry_date = datetime.datetime.strptime(expiry_str, fmt).date()
+                    break
+                except ValueError:
+                    continue
 
-    # Vẽ biểu đồ
-    fig = Figure(figsize=(4, 3.5), dpi=100)
-    ax = fig.add_subplot(111)
-    bars = ax.bar(medicines, days_left_list, color=colors)
+            if not expiry_date:
+                continue
 
-    # Tùy chỉnh trục và tiêu đề
-    ax.set_ylabel("Số ngày còn lại", fontsize=10, color='black')
-    ax.set_title("Thuốc sắp hết hạn (trong 9 ngày)", fontsize=8, color='black', pad=8)
-    ax.set_facecolor('white')
-    fig.patch.set_facecolor('white')
-    ax.tick_params(axis='x', labelrotation=10, labelsize=9, colors='black')
-    ax.tick_params(axis='y', labelsize=8, colors='black')
+            days_left = (expiry_date - today).days
+            if 0 <= days_left <= 9:
+                medicines.append(med['name'])
+                days_left_list.append(days_left)
+                total_expiring_soon += 1
+                if days_left <= 3:
+                    colors.append('red')
+                elif days_left <= 7:
+                    colors.append('yellow')
+                else:
+                    colors.append('orange')
 
-    # Giới hạn trục Y
-    max_days = max(days_left_list)
-    ax.set_ylim(0, max_days + 3)  # Cách ra cho đẹp
+        if not medicines:
+            messagebox.showinfo("Thông báo", "Không có thuốc sắp hết hạn trong 9 ngày.")
+            return
 
-    # Hiển thị số ngày trên cột
-    for bar in bars:
-        height = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2, height + 0.3,
-                f"{int(height)} ngày", ha='center', fontsize=9, color='black')
+        fig = Figure(figsize=(4, 3.5), dpi=100)
+        ax = fig.add_subplot(111)
+        bars = ax.bar(medicines, days_left_list, color=colors)
 
-    fig.tight_layout()  # Chỉnh gọn đẹp
+        ax.set_ylabel("Số ngày còn lại", fontsize=10, color='black')
+        ax.set_title("Thuốc sắp hết hạn (trong 9 ngày)", fontsize=8, color='black', pad=8)
+        ax.set_facecolor('white')
+        fig.patch.set_facecolor('white')
+        ax.tick_params(axis='x', labelrotation=10, labelsize=9, colors='black')
+        ax.tick_params(axis='y', labelsize=8, colors='black')
 
-    # Hiển thị lên tkinter
-    self.chart_canvas = FigureCanvasTkAgg(fig, master=self.window)
-    self.chart_canvas.draw()
-    self.chart_canvas.get_tk_widget().place(x=200, y=140)  # Tuỳ chỉnh vị trí
-    # Tạo label mới
-    self.label_total_expiring_soon = Label(
-        self.window,
-        text=f"Số thuốc sắp hết hạn: {total_expiring_soon}",
-        bg="#1E1E1E",
-        fg="white",
-        font=("Arial", 10, "bold")
-    )
-    self.label_total_expiring_soon.place(
-        x=300,  # Kéo ra bên phải
-        y=120,
-        width=200,
-        height=30
-    )
+        max_days = max(days_left_list)
+        ax.set_ylim(0, max_days + 3)
+
+        for bar in bars:
+            height = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width() / 2, height + 0.3,
+                    f"{int(height)} ngày", ha='center', fontsize=9, color='black')
+
+        fig.tight_layout()
+
+        if self.chart_canvas is not None:
+            self.chart_canvas.get_tk_widget().destroy()
+            self.chart_canvas = None
+
+        self.chart_canvas = FigureCanvasTkAgg(fig, master=self.window)
+        self.chart_canvas.draw()
+        self.chart_canvas.get_tk_widget().place(x=200, y=140)
+
+        self.label_total_expiring_soon = Label(
+            self.window,
+            text=f"Số thuốc sắp hết hạn: {total_expiring_soon}",
+            bg="#1E1E1E",
+            fg="white",
+            font=("Arial", 10, "bold")
+        )
+        self.label_total_expiring_soon.place(
+            x=300,
+            y=120,
+            width=200,
+            height=30
+        )
+    except Exception as e:
+        messagebox.showerror("Error", f"An error occurred: {e}")
 
 
 def load_and_display_top5_best_selling_bar(self):

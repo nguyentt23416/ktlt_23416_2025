@@ -131,15 +131,7 @@ image_3 = canvas.create_image(
     image=image_image_3
 )
 
-button_image_1 = PhotoImage(file=relative_to_assets("button_1.png"))
-button_tab5 = Button(
-    image=button_image_1,
-    borderwidth=0,
-    highlightthickness=0,
-    command=lambda: open_script("Medicine_Dashboard_View.py"),
-    relief="flat"
-)
-button_tab5.place(x=18.5, y=434.0, width=56.8125, height=57.1139)
+
 
 button_image_2 = PhotoImage(file=relative_to_assets("button_2.png"))
 button_tab4 = Button(
