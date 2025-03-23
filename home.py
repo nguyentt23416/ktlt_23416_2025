@@ -93,7 +93,7 @@ class Medicine_Dashboard_View:
             command=lambda: open_script("tracking.py"),
             relief="flat"
         )
-        self.button_tab4.place(x=18.5, y=331.5, width=56.8125, height=57.1139)
+        self.button_tab4.place(x=23, y=392, width=56.8125, height=57.1139)
 
         self.button_image_7 = PhotoImage(file=relative_to_assets("button_7.png"))
         self.button_tab3 = Button(
@@ -103,7 +103,7 @@ class Medicine_Dashboard_View:
             command=lambda: open_script("salequantity.py"),
             relief="flat"
         )
-        self.button_tab3.place(x=18.5, y=228.5, width=56.8125, height=57.1139)
+        self.button_tab3.place(x=23, y=283, width=56.8125, height=57.1139)
 
         self.button_image_8 = PhotoImage(file=relative_to_assets("button_8.png"))
         self.button_tab2 = Button(
@@ -113,7 +113,7 @@ class Medicine_Dashboard_View:
             command=lambda: open_script("adjust.py"),
             relief="flat"
         )
-        self.button_tab2.place(x=18.5, y=130.36, width=56.8125, height=57.2532)
+        self.button_tab2.place(x=23, y=174, width=56.8125, height=57.2532)
 
         self.button_image_9 = PhotoImage(file=relative_to_assets("button_9.png"))
         self.button_tab1 = Button(
@@ -123,7 +123,7 @@ class Medicine_Dashboard_View:
             command=lambda: open_script("home.py"),
             relief="flat"
         )
-        self.button_tab1.place(x=18.5, y=30.5, width=56.8125, height=57.1139)
+        self.button_tab1.place(x=23, y=65, width=56.8125, height=57.1139)
 
         self.window.resizable(False, False)
         self.window.mainloop()

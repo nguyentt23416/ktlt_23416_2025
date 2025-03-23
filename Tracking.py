@@ -89,7 +89,7 @@ button_tab4 = Button(
     command=lambda: open_script("tracking.py"),
     relief="flat"
 )
-button_tab4.place(x=18.5, y=335.0, width=56.8125, height=57.1139)
+button_tab4.place(x=23, y=392.0, width=56.8125, height=57.1139)
 
 button_image_3 = PhotoImage(file=relative_to_assets("button_3.png"))
 button_tab3 = Button(
@@ -99,7 +99,7 @@ button_tab3 = Button(
     command=lambda: open_script("salequantity.py"),
     relief="flat"
 )
-button_tab3.place(x=18.5, y=232.0, width=56.8125, height=57.1139)
+button_tab3.place(x=23, y=283, width=56.8125, height=57.1139)
 
 button_image_4 = PhotoImage(file=relative_to_assets("button_4.png"))
 button_tab2 = Button(
@@ -109,7 +109,7 @@ button_tab2 = Button(
     command=lambda: open_script("adjust.py"),
     relief="flat"
 )
-button_tab2.place(x=18.5, y=133.8607, width=56.8125, height=57.1139)
+button_tab2.place(x=23, y=174, width=56.8125, height=57.1139)
 
 button_image_5 = PhotoImage(file=relative_to_assets("button_5.png"))
 button_tab1 = Button(
@@ -119,7 +119,7 @@ button_tab1 = Button(
     command=lambda: open_script("home.py"),
     relief="flat"
 )
-button_tab1.place(x=18.5, y=34.0, width=56.8125, height=57.1139)
+button_tab1.place(x=23, y=65, width=56.8125, height=57.1139)
 
 
 canvas.create_text(
