@@ -61,8 +61,8 @@ class LoginApp(LoginUI):
 
         if username in users:
             messagebox.showwarning("Warning", "Tên đăng nhập đã tồn tại! Vui lòng chọn tên khác.")
-        elif any(user["password"] == password for user in users.values()):
-            messagebox.showwarning("Warning", "Mật khẩu này đã được sử dụng! Vui lòng chọn mật khẩu khác.")
+        #elif any(user["password"] == password for user in users.values()):
+            #messagebox.showwarning("Warning", "Mật khẩu này đã được sử dụng! Vui lòng chọn mật khẩu khác.")
         else:
             users[username] = {"password": password}
             self.save_users(users)
